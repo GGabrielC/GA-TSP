@@ -1,0 +1,15 @@
+C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\WindowsFormsApp1\obj\Debug\GUI_GA.csprojResolveAssemblyReference.cache
+C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\WindowsFormsApp1\obj\Debug\GUI_GA.csproj.GenerateResource.Cache
+C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\WindowsFormsApp1\obj\Debug\GUI_GA.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\WindowsFormsApp1\bin\Debug\GA-Travelling-Salesman.dll
+C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\WindowsFormsApp1\bin\Debug\CloneBehave.dll
+C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\WindowsFormsApp1\bin\Debug\Fasterflect.dll
+C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\WindowsFormsApp1\bin\Debug\GA-Travelling-Salesman.pdb
+C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\WindowsFormsApp1\bin\Debug\Fasterflect.xml

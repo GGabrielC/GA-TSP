@@ -1,0 +1,8 @@
+C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\GA-Travelling-Salesman\bin\Release\GA-Travelling-Salesman.dll
+C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\GA-Travelling-Salesman\bin\Release\GA-Travelling-Salesman.pdb
+C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\GA-Travelling-Salesman\bin\Release\CloneBehave.dll
+C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\GA-Travelling-Salesman\bin\Release\Fasterflect.dll
+C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\GA-Travelling-Salesman\bin\Release\Fasterflect.xml
+C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\GA-Travelling-Salesman\obj\Release\API-GA.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\GA-Travelling-Salesman\obj\Release\GA-Travelling-Salesman.dll
+C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\GA-Travelling-Salesman\obj\Release\GA-Travelling-Salesman.pdb

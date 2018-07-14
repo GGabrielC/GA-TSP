@@ -1,0 +1,9 @@
+C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\GA-Travelling-Salesman\bin\Debug\GA-Travelling-Salesman.dll
+C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\GA-Travelling-Salesman\bin\Debug\GA-Travelling-Salesman.pdb
+C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\GA-Travelling-Salesman\obj\Debug\API-GA-Travelling-Salesman.csprojResolveAssemblyReference.cache
+C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\GA-Travelling-Salesman\obj\Debug\API-GA-Travelling-Salesman.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\GA-Travelling-Salesman\obj\Debug\GA-Travelling-Salesman.dll
+C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\GA-Travelling-Salesman\obj\Debug\GA-Travelling-Salesman.pdb
+C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\GA-Travelling-Salesman\bin\Debug\CloneBehave.dll
+C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\GA-Travelling-Salesman\bin\Debug\Fasterflect.dll
+C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\GA-Travelling-Salesman\bin\Debug\Fasterflect.xml

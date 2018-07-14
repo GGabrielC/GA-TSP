@@ -1,0 +1,12 @@
+C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\MainDev-GA-TSP\bin\Release\MainDev-GA-TSP.exe.config
+C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\MainDev-GA-TSP\bin\Release\MainDev-GA-TSP.exe
+C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\MainDev-GA-TSP\bin\Release\MainDev-GA-TSP.pdb
+C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\MainDev-GA-TSP\bin\Release\GA-Travelling-Salesman.dll
+C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\MainDev-GA-TSP\bin\Release\CloneBehave.dll
+C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\MainDev-GA-TSP\bin\Release\Fasterflect.dll
+C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\MainDev-GA-TSP\bin\Release\GA-Travelling-Salesman.pdb
+C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\MainDev-GA-TSP\bin\Release\Fasterflect.xml
+C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\MainDev-GA-TSP\obj\Release\MainDev-GA-TSP.csprojResolveAssemblyReference.cache
+C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\MainDev-GA-TSP\obj\Release\MainDev-GA-TSP.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\MainDev-GA-TSP\obj\Release\MainDev-GA-TSP.exe
+C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\MainDev-GA-TSP\obj\Release\MainDev-GA-TSP.pdb
