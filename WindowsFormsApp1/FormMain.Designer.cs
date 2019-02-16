@@ -36,6 +36,7 @@ namespace WindowsFormsApp1
             this.randomInputToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fileInputToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.textToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.xqf131ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panelPath = new System.Windows.Forms.Panel();
             this.numericUpDownMaxGenerations = new System.Windows.Forms.NumericUpDown();
             this.numericUpDownMutationRate = new System.Windows.Forms.NumericUpDown();
@@ -64,6 +65,7 @@ namespace WindowsFormsApp1
             this.labelShortestPath = new System.Windows.Forms.Label();
             this.labelCurrentGenerationValue = new System.Windows.Forms.Label();
             this.labelCurrentGeneration = new System.Windows.Forms.Label();
+            this.sampleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownMaxGenerations)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownMutationRate)).BeginInit();
@@ -81,7 +83,7 @@ namespace WindowsFormsApp1
             this.inputToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1398, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1620, 28);
             this.menuStrip1.TabIndex = 8;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -97,7 +99,9 @@ namespace WindowsFormsApp1
             this.inputToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.randomInputToolStripMenuItem,
             this.fileInputToolStripMenuItem,
-            this.textToolStripMenuItem});
+            this.textToolStripMenuItem,
+            this.xqf131ToolStripMenuItem,
+            this.sampleToolStripMenuItem});
             this.inputToolStripMenuItem.Name = "inputToolStripMenuItem";
             this.inputToolStripMenuItem.Size = new System.Drawing.Size(55, 24);
             this.inputToolStripMenuItem.Text = "Input";
@@ -105,22 +109,29 @@ namespace WindowsFormsApp1
             // randomInputToolStripMenuItem
             // 
             this.randomInputToolStripMenuItem.Name = "randomInputToolStripMenuItem";
-            this.randomInputToolStripMenuItem.Size = new System.Drawing.Size(140, 26);
+            this.randomInputToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
             this.randomInputToolStripMenuItem.Text = "Random";
             this.randomInputToolStripMenuItem.Click += new System.EventHandler(this.randomInputToolStripMenuItem_Click);
             // 
             // fileInputToolStripMenuItem
             // 
             this.fileInputToolStripMenuItem.Name = "fileInputToolStripMenuItem";
-            this.fileInputToolStripMenuItem.Size = new System.Drawing.Size(140, 26);
+            this.fileInputToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
             this.fileInputToolStripMenuItem.Text = "File";
             this.fileInputToolStripMenuItem.Click += new System.EventHandler(this.fileInputToolStripMenuItem_Click);
             // 
             // textToolStripMenuItem
             // 
             this.textToolStripMenuItem.Name = "textToolStripMenuItem";
-            this.textToolStripMenuItem.Size = new System.Drawing.Size(140, 26);
+            this.textToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
             this.textToolStripMenuItem.Text = "Text";
+            // 
+            // xqf131ToolStripMenuItem
+            // 
+            this.xqf131ToolStripMenuItem.Name = "xqf131ToolStripMenuItem";
+            this.xqf131ToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.xqf131ToolStripMenuItem.Text = "xqf131";
+            this.xqf131ToolStripMenuItem.Click += new System.EventHandler(this.xqf131ToolStripMenuItem_Click);
             // 
             // panelPath
             // 
@@ -128,10 +139,11 @@ namespace WindowsFormsApp1
             this.panelPath.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panelPath.Location = new System.Drawing.Point(304, 31);
             this.panelPath.MaximumSize = new System.Drawing.Size(2000, 2000);
-            this.panelPath.MinimumSize = new System.Drawing.Size(1000, 1000);
+            this.panelPath.MinimumSize = new System.Drawing.Size(1500, 1000);
             this.panelPath.Name = "panelPath";
-            this.panelPath.Size = new System.Drawing.Size(1000, 1000);
+            this.panelPath.Size = new System.Drawing.Size(1500, 1000);
             this.panelPath.TabIndex = 0;
+            this.panelPath.Paint += new System.Windows.Forms.PaintEventHandler(this.panelPath_Paint);
             // 
             // numericUpDownMaxGenerations
             // 
@@ -483,11 +495,18 @@ namespace WindowsFormsApp1
             this.labelCurrentGeneration.TabIndex = 0;
             this.labelCurrentGeneration.Text = "Current Generation\r\n";
             // 
+            // sampleToolStripMenuItem
+            // 
+            this.sampleToolStripMenuItem.Name = "sampleToolStripMenuItem";
+            this.sampleToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.sampleToolStripMenuItem.Text = "Sample";
+            this.sampleToolStripMenuItem.Click += new System.EventHandler(this.sampleToolStripMenuItem_Click);
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1398, 712);
+            this.ClientSize = new System.Drawing.Size(1620, 807);
             this.Controls.Add(this.groupBoxInfo);
             this.Controls.Add(this.groupBoxSettings);
             this.Controls.Add(this.panelPath);
@@ -544,6 +563,8 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.Label labelStatus;
         private CheckBox checkBoxDrawBestSolution;
         private CheckBox checkBoxAddBestToPopulation;
+        private ToolStripMenuItem xqf131ToolStripMenuItem;
+        private ToolStripMenuItem sampleToolStripMenuItem;
     }
 }
 

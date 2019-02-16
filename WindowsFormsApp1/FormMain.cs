@@ -152,6 +152,10 @@ namespace WindowsFormsApp1
         {
             Input = InputGetter.getInputByFile();
         }
+        private void xqf131ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Input = InputGetter.inputBy_xqf131();
+        }
 
         private void numericUpDownMaxGenerations_ValueChanged(object sender, EventArgs e)
         {
@@ -189,6 +193,16 @@ namespace WindowsFormsApp1
         private void checkBoxDrawBestSolution_CheckedChanged(object sender, EventArgs e)
         {
             RedrawBestSolution();
+        }
+
+        private void panelPath_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void sampleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Input = InputGetter.inputBySample();
         }
     }
 }

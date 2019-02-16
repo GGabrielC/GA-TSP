@@ -18,7 +18,7 @@ namespace UnitTests
             var fitnessList = new List<float>(count);
             for (int i = 0; i < count; i++)
                 fitnessList.Add( (float)random.NextDouble());
-            var probabilities = fitnessList.GetProbabilitiesToPick();
+            var probabilities = fitnessList.GetProbabilitiesToPickExponential();
 
             var sum = probabilities.Sum();
             Assert.IsTrue( sum.EEquals(1) );

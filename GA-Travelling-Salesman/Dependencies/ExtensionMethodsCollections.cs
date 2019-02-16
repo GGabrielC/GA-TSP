@@ -81,7 +81,7 @@ namespace GA_Travelling_Salesman.Dependencies
             return cumulativeSum;
         }
 
-        public static ICollection<float> GetProbabilitiesToPick(this ICollection<float> scores, float scoreDiscrimination = 2)
+        public static ICollection<float> GetProbabilitiesToPickExponential(this ICollection<float> scores, float scoreDiscrimination = 2)
         {
             // making scores > 1
             var numbers = scores.Select(el => el).ToList();
@@ -104,6 +104,22 @@ namespace GA_Travelling_Salesman.Dependencies
             return probabilities.ToList();
         }
 
+        public static ICollection<float> GetProbabilitiesToPickProportional(this ICollection<float> scores)
+        {
+            scores = positiveScores(scores);
+            var sum = scores.Sum();
+            return scores.Select(s => s / sum).ToList();
+        }
+
+        public static ICollection<float> positiveScores(this ICollection<float> scores)
+        {
+            var minScore = scores.Min();
+            if (minScore < 0)
+            {
+                scores = scores.Select(s => 1+s-minScore ).ToList();
+            }
+            return scores;
+        }
     }
 }
 

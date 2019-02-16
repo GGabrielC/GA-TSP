@@ -13,7 +13,7 @@ namespace GA_Travelling_Salesman
         private LinkedList<ObserverAPI> observers = new LinkedList<ObserverAPI>();
 
         public static readonly int DEFAULT_GENERATION_COUNT = 10000;
-        public static readonly int DEFAULT_POPULATION_COUNT = 100;
+        public static readonly int DEFAULT_POPULATION_COUNT = 50;
         public static readonly float DEFAULT_MUTATION_RATE = 0.01f;
         public static readonly float DEFAULT_FITNESS_DISCRIMINATION = 4.0f;
         public static readonly float MIN_FITNESS_DISCRIMINATION = 2.0f;
@@ -167,8 +167,13 @@ namespace GA_Travelling_Salesman
                 return;
             threadAlgorithm = new Thread(new ThreadStart(() =>
             {
-                while ( ExpectedExecutionStatus)
-                    Population = CreateNextGeneration( Population, ExpectedPopulationCount, ExpectedMutationRate );
+                //List<int> x = new List<int>() { 1,10,50,100,200,300,400,500,750,1000,1500, 2000, 2500, 3000};
+                while (ExpectedExecutionStatus)
+                {
+                    //if (x.Contains(CurrentGeneration))
+                        //Console.WriteLine("{1}", CurrentGeneration, ((int)-BestFitness)/10);
+                    Population = CreateNextGeneration(Population, ExpectedPopulationCount, ExpectedMutationRate);
+                }
             }));
             threadAlgorithm.Start();
         }
@@ -223,8 +228,10 @@ namespace GA_Travelling_Salesman
                 var fitness = GetFitness(specimen);
                 fitnessList.Add((float)fitness);
             }
-            return fitnessList.GetProbabilitiesToPick(ExpectedFitnessDiscrimination);
+            var probs1 = fitnessList.GetProbabilitiesToPickExponential(ExpectedFitnessDiscrimination);
+            var probs2 = fitnessList.GetProbabilitiesToPickProportional();
+            return probs1;
+            //return probs2;
         }
-       
     }
 }

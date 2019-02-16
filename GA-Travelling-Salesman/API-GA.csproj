@@ -61,5 +61,10 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="InputSample\sample.txt" />
+    <Content Include="InputSample\input.txt" />
+    <Content Include="InputSample\xqf131.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

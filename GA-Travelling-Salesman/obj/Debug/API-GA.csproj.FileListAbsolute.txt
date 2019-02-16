@@ -1,4 +1,3 @@
-C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\GA-Travelling-Salesman\obj\Debug\API-GA.csprojResolveAssemblyReference.cache
 C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\GA-Travelling-Salesman\obj\Debug\API-GA.csproj.CoreCompileInputs.cache
 C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\GA-Travelling-Salesman\obj\Debug\GA-Travelling-Salesman.dll
 C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\GA-Travelling-Salesman\obj\Debug\GA-Travelling-Salesman.pdb
@@ -9,3 +8,4 @@ C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\GA-Travelling-Sales
 C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\GA-Travelling-Salesman\bin\Debug\Fasterflect.xml
 C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\GA-Travelling-Salesman\obj\Debug\API-GA.csproj.CopyComplete
 C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\GA-Travelling-Salesman\bin\Debug\CloneExtensions.dll
+C:\Users\Gabriel\source\repos\GA-Travelling-Salesman-Problem\GA-Travelling-Salesman\obj\Debug\API-GA.csprojAssemblyReference.cache

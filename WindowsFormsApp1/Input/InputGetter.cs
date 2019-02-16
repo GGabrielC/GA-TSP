@@ -47,5 +47,47 @@ namespace WindowsFormsApp1.Input
             }, 4).ShowDialog();
             return input;
         }
+        
+        public static ICollection<Point> inputBy_xqf131()
+        {
+            var inputPoints = new LinkedList<Point>();
+            var scale = 10;
+
+            var fileName = "C:\\Users\\Gabriel\\source\\repos\\GA-Travelling-Salesman-Problem\\GA-Travelling-Salesman\\InputSample\\xqf131.txt";
+            using (TextReader reader = File.OpenText(fileName))
+            {
+                string line;
+                while ((line = reader.ReadLine()) != null)
+                {
+                    var lineData = line.Split(' ');
+                    var x = int.Parse(lineData[1]);
+                    var y = int.Parse(lineData[2]);
+                    inputPoints.AddLast(new Point(scale*x, scale*y));
+                }
+            }
+
+            return MakeValid(inputPoints);
+        }
+
+        internal static ICollection<Point> inputBySample()
+        {
+            var inputPoints = new LinkedList<Point>();
+            var scale = 1;
+
+            var fileName = "C:\\Users\\Gabriel\\source\\repos\\GA-Travelling-Salesman-Problem\\GA-Travelling-Salesman\\InputSample\\sample.txt";
+            using (TextReader reader = File.OpenText(fileName))
+            {
+                string line;
+                while ((line = reader.ReadLine()) != null)
+                {
+                    var lineData = line.Split(' ');
+                    var x = double.Parse(lineData[1]);
+                    var y = double.Parse(lineData[2]);
+                    inputPoints.AddLast(new Point((int)Math.Round(x*scale), (int)Math.Round(y*scale)));
+                }
+            }
+
+            return MakeValid(inputPoints);
+        }
     }
 }
